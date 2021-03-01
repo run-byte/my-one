@@ -1,0 +1,12 @@
+git init
+git
+git remote add origin https://gitee.com/run-type/one.git
+git status检查状态
+git checkout -b login创建分支
+git branch查看所有分支
+git pull --rebase origin master合并所有分支
+git add .提交本地暂存区
+git commit -m "add files"本地提交
+git push -u origin master上传代码、云端仓库关联
+初始化vue插件安装vue-cli-pugin-element
+运行依赖axios
