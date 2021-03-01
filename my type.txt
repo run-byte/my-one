@@ -10,3 +10,48 @@ git commit -m "add files"本地提交
 git push -u origin master上传代码、云端仓库关联
 初始化vue插件安装vue-cli-pugin-element
 运行依赖axios
+
+完整的过程为：
+
+echo "# psaData" >> README.md
+ 
+git init
+ 
+git add README.md
+ 
+git config --global user.email "you@example.com" （可以去掉--global）
+ 
+git config --global user.name "Your Name" （可以去掉--global）
+ 
+git commit -m "first commit for psaData"
+ 
+git status
+ 
+git remote add origin https://github.com/figosoar/psaData.git
+ 
+git push -u origin master
+ 
+
+下一次提交之前，一定要先同步本地与repository代码。
+
+git pull origin master
+ 
+
+如果要提交代码的repository不是空仓，则首先git clone将其下载下来。
+
+随后从git add 本地文件 开始，config视情况而定。
+
+ 
+
+git下载代码后，可以通过git status或git branch查看当前所在分支
+
+可以通过git branch -a查看代码所有分支
+
+通过git checkout -b other origin/other切换到其它分支
+
+ 
+
+另外，如需rename repository的名字，可以到repository的Settings tab中。
+————————————————
+版权声明：本文为CSDN博主「jack@london」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/figosoar/article/details/108635030
