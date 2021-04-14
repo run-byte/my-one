@@ -79,7 +79,7 @@ git push -u origin main
 
 如果使用git,必须配置用户名和邮箱,给当前的git仓库配置用户名和邮箱
 <ul>
-<li>git config user.name "用户名"</li>
+<li>git config user.name "用户名"</li>  //run-byte
 <li>git config user.email "邮箱"</li>
 
 </ul>
