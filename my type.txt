@@ -63,3 +63,35 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/run-byte/my-one.git
 git push -u origin main
+
+
+1、切换远程仓库地址：
+方式一：修改远程仓库地址
+
+【git remote set-url origin URL】 更换远程仓库地址，URL为新地址。
+
+方式二：先删除远程仓库地址，然后再添加
+
+【git remote rm origin】 删除现有远程仓库
+【git remote add origin url】添加新远程仓库
+
+2、【git remote -v 】查看远程仓库的地址
+
+如果使用git,必须配置用户名和邮箱,给当前的git仓库配置用户名和邮箱
+<ul>
+<li>git config user.name "用户名"</li>
+<li>git config user.email "邮箱"</li>
+
+</ul>
+配置全局的用户名和邮箱
+git config --global user.name "用户名"
+git config --global user.email "邮箱"
+
+让git记住账号和密码的方法：
+
+　　在git bash 中执行命令：git config --global credential.helper store
+
+　　输入一次账号密码就可以保存，下次不再提示。
+
+git 提示fatal: Authentication failed for...又不弹出用户名和密码的解决办法：
+　　git config --system --unset credential.helper　　//重置验证设置
