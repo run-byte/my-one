@@ -1,5 +1,3 @@
-git init
-git
 git remote add origin https://gitee.com/run-type/one.git
 git status检查状态
 git checkout -b login创建分支
@@ -23,11 +21,11 @@ git config --global user.email "you@example.com" （可以去掉--global）
  
 git config --global user.name "Your Name" （可以去掉--global）
  
-git commit -m "first commit for psaData"
- 
 git status
  
 git remote add origin https://github.com/figosoar/psaData.git
+ 
+git commit -m "first commit for psaData"
  
 git push -u origin master
  

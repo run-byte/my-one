@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    w我的
+    <view-router></view-router>
     <img src="./assets/logo.png">
     <div>
       <p>
