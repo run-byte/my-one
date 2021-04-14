@@ -53,3 +53,13 @@ git下载代码后，可以通过git status或git branch查看当前所在分支
 ————————————————
 版权声明：本文为CSDN博主「jack@london」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/figosoar/article/details/108635030
+
+git地址 https://github.com/run-byte/my-one.git
+
+echo "# my-one" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/run-byte/my-one.git
+git push -u origin main
